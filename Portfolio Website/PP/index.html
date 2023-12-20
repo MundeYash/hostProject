@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> YashMunde Devlopers Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/yashLogo.png" class="logo"alt="Sorry!">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a>  </li>
+                    <li> <a href="#about">About</a>  </li>
+                    <li> <a href="#services">Services</a>  </li>
+                    <li> <a href="#portfolio">Portfolio</a>  </li>
+                    <li> <a href="#contact">Contact</a>  </li>
+                    <i class="fas fa-times"onclick= "closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclick= "openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Final Year<br> Undergraduate CSE </p>
+                <h1>Hi, I am <span><br>Yash Munde </span><br>From Delhi Technological <br>University</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------ABOUT SECTION CODE  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.png" alt="Sorry!" >
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p >
+                        
+                                Passionate about software development and eager to start a career as a Software Developer.
+                                Strong foundation in programming languages, algorithms, and software engineering principles.
+                                Completed various projects, both individually and collaboratively, to solve real-world problems.
+                                Proficient in Java, C++, Python, HTML, CSS, and JavaScript.Experience with database design and management, particularly SQL.
+                               
+                        </p>
+                        <br>
+                        <!-- <p>  
+                            Excellent problem-solving abilities and attention to detail.
+                            Quick learner with an openness to new technologies and frameworks.</p>
+
+
+                            <p>
+                                <br>
+                                Emphasizes the importance of teamwork and effective communication.
+                            Seeking an opportunity to work as a Software Developer in a dynamic and challenging environment.
+                            Enthusiastic about contributing to the development of innovative software solutions.
+                            </p>
+
+                            <br>
+
+                            <p>
+                                Confident in making a valuable contribution to an organization.
+                                Open to further discussion and available for contact.
+                            </p>
+                            <br> -->
+                  
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"  >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                        
+                    </div> 
+
+ 
+                  
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                                 <!-- this is the  skills  adding section  -->
+                            <li><span>Full-Stack Developer</span><br>Designing Web Apps/App Interfaces using MERN Stack </li>
+                            <li><span>Problem Solving</span><br>Proficient in C and C++ languague    </li>
+                            <li><span>Front-End-Developer</span><br> HTML, CSS , JavaScript,Bootstrap, Git and Git-hub </li>
+                            
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents "  id="experience">
+                        <ul>
+                                  
+                            <!-- this is the  Work Experience  adding section  -->
+                            <li><span>Online Shopping Website</span><br>Created  for purchasing things inside College Campus</li>
+                            <li><span> Music Application</span><br>Created a clone of Music application for easy listening of songs.</li>
+                            <li><span>College Social Media</span><br>Designed an Chat Application for college students to interact with college students</li>
+                            
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                        
+                            
+                            <!-- this is the Education  adding section  -->
+                            <li><span>2020-2024</span><br>B.Tech (CSE) from Delhi Technological University</li>
+                            <li><span>2018-2020</span><br>Class-XII from Geeta Bal Bharti Sr Sec School</li>
+                            <li><span>2017-2018</span><br>Class-X from Geeta Bal Bharti Sr Sec School</li>
+                            
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>I have gained extensive knowledge in front-end development, UI/UX design, and responsive web design. I have hands-on experience in HTML, CSS, JavaScript, and various front-end frameworks such as Bootstrap.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Application Designing</h2>
+                    <p>I am passionate about creating intuitive and visually appealing applications that provide seamless user experiences. </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Version Control and Collaboration</h2>
+                    <p>Having proficiency in utilizing version control systems (e.g., Git) and collaborating effectively with teams using tools like GitHub.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------Portfloio section ------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png" alt="Sorry!" >
+                    
+                    <div class="layer">
+
+                        <h3>College Social Media</h3>
+                        <p>This Application  helps the people from the colleges to connect with each other inside the campus.
+                            
+                        </p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="/images/new.png" alt="Sorry!">
+
+                    <div class="layer">
+
+                        <h3>Fitness  Application </h3>
+                        <p>This Application  helps the user to stay healthy via following  good diet plans and exercises routine .
+                           
+                        </p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="/images/work-3.png" alt="Sorry!" >
+                    <div class="layer">
+
+                        <h3>Online Shopping App</h3>
+                        <p>This Application  helps the people to buy the Groceries items related to the daily need from the shops inside the campus.
+                            Download its code  from my GitHub account.
+                        </p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                   
+                </div>
+
+
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+
+    <!-- ------------------Contacts --------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>yashmunde68@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i>8178305775</p>
+
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yash-munde-770691218/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MundeYash"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://leetcode.com/yashmunde68/"><i class='fas fa-code'></i></a>
+                       
+
+                    </div>
+                    <a href="/images/mycV.pdf"  download     class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+           <p> Copyright ©. Made with <i class="fas fa-heart"></i> by Yash Munde </p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+   
+
+    <script>
+        var sidemenu  = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0" ;
+           
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px" ;
+           
+        }
+    </script>
+    
+
+    <!-- script from outiside functionality of data from user contacs  -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyq87MdlWU3q_KNjgkcs-yLECDSZv6FGiiTgVXIcN0sP28qtcHUH7tXwoOFz5FUf0si/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message Sent Sucessfully:)"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+<!-- ----------------excel sheet link of data (https://docs.google.com/spreadsheets/d/1lkgEMyV3_7Qzl8tb5gRAxUZFolYmpwj3UpzjU6XRj-c/edit#gid=0)------------------ -->
+
+</body>
+</html>
